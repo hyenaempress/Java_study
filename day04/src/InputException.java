@@ -14,13 +14,17 @@ public class InputException {
             System.out.println(i+">>>");
 
             try {
-                n = scanner.nextInt();
+                n = scanner.nextInt();//정수입
 
             }catch (InputMismatchException e){
-
+                System.out.println("정수가 아닙니다 다시 도전해 주세요");
+                scanner.nextLine();
+                i--;
+                continue;
             }
-
+            sum += n; //합하기
         }
-
+        System.out.println("합은"+sum);
+        scanner.close();
     }
 }
