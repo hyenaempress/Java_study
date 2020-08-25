@@ -18,7 +18,7 @@ public class Circle {
 
         Circle donut = new Circle();
         donut.radius = 10;
-        donut.name = "자바도넛"
+        donut.name = "자바도넛";
                 area = donut.getArea();
         System.out.println(donut.name+ "의 면적은" + area);
 
