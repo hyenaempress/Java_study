@@ -3,7 +3,6 @@ package com.value;
 public class FieldInitValueExample {
     public static void main(String[] args) {
         FieldInitValue fiv = new FieldInitValue();
-
         System.out.println("byteField:"+fiv.byteField);
         System.out.println("sortField:"+fiv.shortField);
         System.out.println("intField:" +fiv.intField);
@@ -12,5 +11,4 @@ public class FieldInitValueExample {
         System.out.println("charField:"+fiv.charField);
         System.out.println("floatField"+fiv.floatField);
     }
-
 }
