@@ -1,0 +1,16 @@
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(revision 6e4a92875993f6154de1be4b4fe7ded936b3bcfb)
++++ .idea/modules.xml	(date 1598966890578)
+@@ -11,6 +11,7 @@
+       <module fileurl="file://$PROJECT_DIR$/day06/day06.iml" filepath="$PROJECT_DIR$/day06/day06.iml" />
+       <module fileurl="file://$PROJECT_DIR$/day07/day07.iml" filepath="$PROJECT_DIR$/day07/day07.iml" />
+       <module fileurl="file://$PROJECT_DIR$/day08/day08.iml" filepath="$PROJECT_DIR$/day08/day08.iml" />
++      <module fileurl="file://$PROJECT_DIR$/day09/day09.iml" filepath="$PROJECT_DIR$/day09/day09.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
